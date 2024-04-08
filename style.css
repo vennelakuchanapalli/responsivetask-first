@@ -1,0 +1,264 @@
+body{
+    margin: 0%;
+}
+* {
+    box-sizing: border-box;
+   
+}
+.header{
+    background-color: rgb(194, 192, 192);
+    width: 100%;
+    line-height: 30px;
+    padding: 40px;
+   
+}
+.header h1{
+    font: size 20%;
+    margin: 0px;
+
+}
+.header p{
+font-size: large;
+margin: 0px;
+}
+.container{
+    position: absolute;
+    width: 60%;
+    background-color:white ;
+    left: 300px;
+    top: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px 10px;
+}
+.black-header{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    align-items: center;
+    height: 68px;
+    color: white;
+    background-color: black;
+    
+    justify-content: space-around;
+    text-align: center;
+
+}
+.section{
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-around;
+   
+}
+.two-headings{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.listrace{
+width: 60%;
+
+}
+.litrace-heading{
+    text-align: center;
+}
+.litrace-icons{
+    width: 100%;
+    height: 20%;
+}
+.li-icon{
+   border: 1px solid rgb(192, 190, 190);
+width: 19%;
+height: 80px;
+padding: 20px;
+
+font-size: 40px;
+
+}
+.litrace-img1 {
+    width: 100%;
+    height: 100%;
+}
+.oursponsers{
+    width: 50%;  
+
+}
+.oursponsers-p{
+    font-size: 30px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.oursponsers-p .btn1{
+background-color: #84f046;
+border-radius: 50%;
+}
+.oursponsers-p .btn2{
+    background-color: #f38b35;
+    border-radius: 50%;
+ }
+.oursponsers-p .btn3{
+        background-color: #358ef3;
+        border-radius: 50%;
+ }
+.anchorline{
+    text-align: left;
+    font-size: 25px;
+   
+}
+.anchorline a{
+    text-decoration: none;
+}
+.two-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.dowload-btn{
+    color: #eb7135;
+    font-size: 48px;
+    text-align: center;
+    width: 32%;
+    margin: 1%;
+    background-color: #ede47f;
+}
+.livedemo-btn{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    width: 32%;
+    margin: 1%;
+    background-color: #84f046; 
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aqua;
+    font-size: 30px;
+    gap: 10px;
+}
+footer{
+ background-color :#e7e3e3;
+font-size: 20px;
+width: 100%;
+position: absolute;
+top: 912px;
+}
+footer p{
+   text-align: center; 
+}
+@media (max-width:576px) {
+.header h1{
+        font: size 40%;   
+}
+.header{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+body{
+    width:100%
+}
+.container{
+    width:100% ;
+    float: left;
+    position: absolute;
+    left: 0px;
+}
+
+.black-header {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sm-css{
+    font-size: 20px;
+}
+.two-headings{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+.section-sm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.listrace {
+    margin-left: 35px;
+    width: 76%;
+}
+.li-icon {
+    border: 1px solid rgb(192, 190, 190);
+    width: 19%;
+    height: 74px;
+    padding: 20px;
+    font-size: 26px;
+}
+.litrace-heading {
+    text-align: center;
+    font-size: 11px;
+}
+.oursponsers {
+    width: 100%;
+}
+.oursponsers-heading{
+    margin: 0px;
+    text-align: center;
+    font-size: 22px;
+}
+.oursponsers-p {
+    justify-content: center;
+    font-size: 21px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.two-buttons{
+    padding-left: 99px;
+    display: flex;
+    flex-direction: column;
+    width: 148%;
+}
+.dowload-btn {
+    color: #eb7135;
+    font-size: 32px;
+    text-align: center;
+    width: 32%;
+    margin: 1%;
+    background-color: #ede47f;
+}
+.livedemo-btn {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 32%;
+    margin: 1%;
+    background-color: #84f046;
+}
+.anchorline {
+    padding-right: 93px;
+    text-align: center;
+    font-size: 14px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    color: aqua;
+    font-size: 16px;
+    gap: 10px;
+}
+.nav-mediplus-tem{
+    display: none;
+}
+footer{
+    position: absolute;
+   
+   background-color: cadetblue;
+   font-size: 13px;
+    /* text-align: left; */
+    top: 212%;
+ 
+}
+}
